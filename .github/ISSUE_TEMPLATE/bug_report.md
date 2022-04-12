@@ -24,8 +24,8 @@ A clear description of what you expected to happen.
 Add screenshots to help explain your problem.
 
 **Smartphone (please complete the following information):**
- - Device: [e.g. Galaxy S21 5G]
- - Model: [e.g. G991B]
+ - Device: [e.g. Galaxy S20 Ultra 5G]
+ - Model: [e.g. G988B]
 
 **Additional context**
 - Gather logs by using [LoggingKit_v5](https://github.com/LeeXDA21/UnboundHub/releases/download/v5.0/LoggingKit_v5.zip) when applicable
