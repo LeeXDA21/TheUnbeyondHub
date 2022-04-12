@@ -1,7 +1,7 @@
 # Project Unbound Main Hub
 
 ![Current Issues](https://img.shields.io/github/issues-raw/LeeXDA21/UnboundHub?color=red&label=Current%20Issues%3A)
-![Closed Issues](https://img.shields.io/github/issues-closed-raw/LeeXDA21/BeyondROM_Hub?color=green&label=Closed%20Issues%3A)
+![Closed Issues](https://img.shields.io/github/issues-closed-raw/LeeXDA21/UnboundHub?color=green&label=Closed%20Issues%3A)
 ![](https://img.shields.io/github/downloads/LeeXDA21/UnboundHub/total?color=Green&label=Kit%20Downloads)
 ![](https://img.shields.io/github/v/release/LeeXDA21/UnboundHub?color=greeen&include_prereleases&label=Current%20Kit%20Version%3A)
 [![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram&label=Main%20Chat)](https://t.me/UnboundROM)
