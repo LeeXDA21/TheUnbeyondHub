@@ -24,7 +24,7 @@
 
 ### XDA Links for Project Unbound:
 
-* [Project Unbound]() *Coming Soon*
+* [Project Unbound XDA](https://forum.xda-developers.com/t/rom-project-unbound-g98x-cvc4_s21port-oneui4-1.4429851/#post-86727799) 
 
 
 ### How to gather logs with **LoggingKit**
