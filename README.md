@@ -1,6 +1,6 @@
 # Project Unbound Main Hub
 
-![alt text](https://i.imgur.com/gIyjClh.png)
+![alt text](https://i.imgur.com/OWw45sg.png)
 
 **Credits to Anan1211 for the Logging Kit.**
 
