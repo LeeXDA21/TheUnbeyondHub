@@ -22,8 +22,8 @@ A clear description of what you expected to happen
 .
 
 **Smartphone (please complete this feature following information part if you want device spesific):**
- - Device: [e.g. Galaxy S20 Ultra 5G]
- - Model: [e.g. G988B]
+ - Device: [e.g. Galaxy S20+ 5G]
+ - Model: [e.g. G986B]
 
 **Origin of Feature**
 - Add feature of origin device brand, device model and (if its possible) firmware link.
