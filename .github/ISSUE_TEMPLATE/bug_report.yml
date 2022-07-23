@@ -22,7 +22,7 @@ body:
       - SM-G988B (Galaxy S20 Ultra 5G)
     validations:
       required: true
-      - type: dropdown
+  - type: dropdown
     id: rom-version
     attributes:
       label: Unbound Version
