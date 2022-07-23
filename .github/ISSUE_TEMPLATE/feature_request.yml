@@ -49,10 +49,17 @@ body:
     validations:
       required: true
   - type: textarea
-    id: bug-description
+    id: feature-description
     attributes:
-      label: Bug Description
-      description: Describe the bug and how to reproduce it in as much detail as possible.
+      label: Feature Description
+      description: Describe the feature and how it works and how it would benefit future updates of the ROM in as much detail as possible.
+    validations:
+      required: true
+  - type: textarea
+    id: feat-desc-cont
+    attributes:
+      label: Feature Visual Description
+      description: Please upload some screenshots/video of the requested feature onto your Google Drive, and provide the link. **MUST BE A G-DRIVE LINK**
     validations:
       required: true
   - type: checkboxes
