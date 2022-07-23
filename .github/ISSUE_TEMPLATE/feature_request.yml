@@ -1,29 +1,68 @@
----
-name: Feature Request
-about: Create a Feature Request to help us add extra goodies to the ROM.
-title: "[FEATURE] Feature Name"
-labels: ''
-assignees: ''
-
----
-
-**Describe the feature**
-Describe your feature request here. [e.g. Native Blur]
-
-**Possible Visualization**
-Example ways to visualizate the request:
-1. Find a screenshot of feature
-2. Capture a video screenshot of feature
-3. Draw a concept of feature
-4. or... be creative :)
-
-**Expected behavior**
-A clear description of what you expected to happen
-.
-
-**Smartphone (please complete this feature following information part if you want device spesific):**
- - Device: [e.g. Galaxy S20+ 5G]
- - Model: [e.g. G986B]
-
-**Origin of Feature**
-- Add feature of origin device brand, device model and (if its possible) firmware link.
+name: Bug Report
+description: File a bug report
+title: "[Enhancement]: "
+labels: ["enhancement"]
+assignees:
+  - LeeXDA21
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking your time to help improve Unbound with additional features.
+  - type: dropdown
+    id: typeoffeature
+    attributes:
+      label: Feature Category
+      description: Please select the category that best suits your feature request.
+      options:
+      - Camera
+      - User Interface
+      - Mode of an App. (Eg. A Camera Mode)
+      - Additional setting
+      - ROM Control
+      - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: device-model
+    attributes:
+      label: Device
+      description: What is your Model Number?
+      options:
+      - SM-G980F (Galaxy S20 4G)
+      - SM-G981B (Galaxy S20 5G)
+      - SM-G985F (Galaxy S20+ 4G)
+      - SM-G986B (Galaxy S20+ 5G)
+      - SM-G988B (Galaxy S20 Ultra 5G)
+    validations:
+      required: true
+  - type: dropdown
+    id: rom-version
+    attributes:
+      label: Unbound Version
+      description: What version of Unbound are you using?
+      options:
+      - V1.0.0
+      - V1.1.0
+      - V1.2.0
+      - V1.3.0
+    validations:
+      required: true
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug Description
+      description: Describe the bug and how to reproduce it in as much detail as possible.
+    validations:
+      required: true
+  - type: checkboxes
+    id: is-rom-bug
+    attributes:
+      label: Additional checks
+      options:
+      - label: I have checked other current feature requests and can confirm that this is not a duplicate request.
+        required: true
+      - label: This is currently NOT a feature in Project Unbound.
+        required: true
+      - label: I can confirm that this feature has not been requested before, and has not been rejected in the past.
+        required: true
