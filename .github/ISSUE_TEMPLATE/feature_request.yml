@@ -73,3 +73,5 @@ body:
         required: true
       - label: I can confirm that this feature has not been requested before, and has not been rejected in the past.
         required: true
+      - label: You understand and declare that if any information provided here is incorrect or instructions have not been followed correctly that it can lead to you being permanently banned from all Unbound owned servers.
+        required: true

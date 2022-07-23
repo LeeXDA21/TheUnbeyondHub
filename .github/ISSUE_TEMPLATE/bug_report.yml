@@ -41,6 +41,20 @@ body:
       description: Describe the bug and how to reproduce it in as much detail as possible.
     validations:
       required: true
+  - type: textarea
+    id: bug-desc-cont
+    attributes:
+      label: Bug Visual Description
+      description: Please upload some screenshots/video of the bug you are reporting onto your Google Drive, and provide the link. **MUST BE A G-DRIVE LINK**
+    validations:
+      required: true
+  - type: textarea
+    id: bug-logfile
+    attributes:
+      label: Log File(s)
+      description: Please use the LoggingKit provided from this Hub, and upload the log from "log-all" to your google drive, and provide the link. **MUST BE A G-DRIVE LINK**
+    validations:
+      required: true
   - type: checkboxes
     id: is-rom-bug
     attributes:
@@ -49,4 +63,6 @@ body:
       - label: I have checked other bug reports and this is not a duplicate.
         required: true
       - label: This is a bug in Project Unbound and NOT any other ROM.
+        required: true
+      - label: You understand and declare that if any information provided here is incorrect or instructions have not been followed correctly that it can lead to you being permanently banned from all Unbound owned servers.
         required: true
