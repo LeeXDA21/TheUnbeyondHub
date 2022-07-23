@@ -1,31 +1,41 @@
----
 name: Bug Report
-about: Create a Bug Report to help us improve our ROM.
-title: "[BUG] Bug Name"
-labels: ''
-assignees: ''
-
----
-
-**Describe the bug**
-Describe your issue here. 
-
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
-
-**Expected behavior**
-A clear description of what you expected to happen.
-
-**Screenshots**
-Add screenshots to help explain your problem.
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. Galaxy S20 Ultra 5G]
- - Model: [e.g. G988B]
-
-**Additional context**
-- Gather logs by using [LoggingKit_v5](https://github.com/LeeXDA21/UnboundHub/releases/download/v5.0/LoggingKit_v5.zip) when applicable
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug"]
+assignees:
+  - X1nto
+body:
+  - type: textarea
+    id: device-info
+    attributes:
+      label: Device
+      description: What device are you using?
+      value: |
+        Device:
+        Operating System:
+        Android Version:
+    validations:
+      required: true
+  - type: textarea
+    id: manager-version
+    attributes:
+      label: Version
+      description: What version of Vanced Manager are you using?
+    validations:
+      required: true
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug Description
+      description: Describe the bug and how to reproduce it in as much detail as possible.
+    validations:
+      required: true
+  - type: checkboxes
+    id: is-manager-bug
+    attributes:
+      label: Additional checks
+      options:
+      - label: I have checked other bug reports and this is not a duplicate.
+        required: true
+      - label: This is a bug in Vanced Manager and NOT YouTube Vanced/YouTube Vanced Music/Vanced microG.
+        required: true
