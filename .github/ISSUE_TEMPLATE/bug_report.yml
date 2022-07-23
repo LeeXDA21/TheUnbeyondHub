@@ -9,6 +9,11 @@ body:
     attributes:
       value: |
         Thank you for taking your time to help the Unbound Team squash the bugs.
+  - type: textarea
+    id: tele-user
+    attributes:
+      label: What is your Telegram Username?
+      placeholder: @LeeXDA18 (Make sure to include the @)
   - type: dropdown
     id: device-model
     attributes:
