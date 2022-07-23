@@ -1,1 +1,52 @@
-todo
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug"]
+assignees:
+  - LeeXDA21
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking your time to help the Unbound Team squash the bugs.
+  - type: dropdown
+    id: device-model
+    attributes:
+      label: Device
+      description: What is your Model Number?
+      options:
+      - SM-G980F (Galaxy S20 4G)
+      - SM-G981B (Galaxy S20 5G)
+      - SM-G985F (Galaxy S20+ 4G)
+      - SM-G986B (Galaxy S20+ 5G)
+      - SM-G988B (Galaxy S20 Ultra 5G)
+    validations:
+      required: true
+      - type: dropdown
+    id: rom-version
+    attributes:
+      label: Unbound Version
+      description: What version of Unbound are you running?
+      options:
+      - V1.0.0
+      - V1.1.0
+      - V1.2.0
+      - V1.3.0
+    validations:
+      required: true
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug Description
+      description: Describe the bug and how to reproduce it in as much detail as possible.
+    validations:
+      required: true
+  - type: checkboxes
+    id: is-rom-bug
+    attributes:
+      label: Additional checks
+      options:
+      - label: I have checked other bug reports and this is not a duplicate.
+        required: true
+      - label: This is a bug in Vanced Manager and NOT YouTube Vanced/YouTube Vanced Music/Vanced microG.
+        required: true
