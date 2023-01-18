@@ -1,4 +1,4 @@
-name: Feature & Enhancements request
+name: Feature & Enhancement request
 description: File a feature request
 title: "[Enhancement]: "
 labels: ["enhancement"]
@@ -39,6 +39,9 @@ body:
       - SM-G985F (Galaxy S20+ 4G)
       - SM-G986B (Galaxy S20+ 5G)
       - SM-G988B (Galaxy S20 Ultra 5G)
+      - SM-G991B (Galaxy S21 5G)
+      - SM-G996B (Galaxy S21+ 5G)
+      - SM-G998B (Galaxy S21 Ultra 5G)
     validations:
       required: true
   - type: dropdown
@@ -47,12 +50,8 @@ body:
       label: Unbound Version
       description: What version of Unbound are you using?
       options:
-      - V1.0.0
-      - V1.1.0
-      - V1.2.0
-      - V1.3.0
-      - V1.4.0
-      - V1.5.0
+      - V1.0x
+      - V2.0x
     validations:
       required: true
   - type: textarea
