@@ -15,12 +15,11 @@
 
 ### How to Report a bug or a request a feature:
 
-* Go to Issues tab
-* Select the right template for your issue request `([BUG] for bug, [FEATURE] for Features)`
-* Please explain your bug/feature correctly
-* Give as much details as possible.
-* Low effort in descriptions will most likely have your request closed.
-* Gather logs (for bug reports), reports without a log will be closed.
+* Go to the "Issues" tab
+* Select the correct template for your report (There is only 2 options)
+* Follow the instructions correctly within the form and provide what is asked.
+* Low effort or missing information in the report will see your report being closed & ignored.
+* Specifically for bug reports, GATHER LOGS! *Bug reports without logs will be closed.
 
 ### XDA Links for Project Unbound:
 
