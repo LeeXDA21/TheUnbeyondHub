@@ -8,8 +8,6 @@
 [![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram&label=Unbound%20News)](https://t.me/+KyU1HBv6Q2RjMzY0)
 [![Download](https://img.shields.io/github/v/release/LeeXDA21/TheUnbeyondHub?color=green&logoColor=orange&label=Download%20Latest%20Kit&logo=DocuSign)](https://github.com/LeeXDA21/TheUnbeyondHub/releases/latest)
 
-![alt text](https://i.imgur.com/OWw45sg.png)
-
 **Credits to Anan1211 for the Logging Kit.**
 
 ### How to Report a bug or a request a feature:
