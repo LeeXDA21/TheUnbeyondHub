@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for taking your time to help the Unbound Team squash the bugs.
+        Thank you for taking your time to help the Unbeyond Team squash the bugs.
   - type: textarea
     id: tele-user
     attributes:
@@ -20,6 +20,9 @@ body:
       label: Device
       description: What is your Model Number?
       options:
+      - SM-G970F (Galaxy S10e)
+      - SM-G973F (Galaxy S10)
+      - SM-G975F (Galaxy S10+)
       - SM-G980F (Galaxy S20 4G)
       - SM-G981B (Galaxy S20 5G)
       - SM-G985F (Galaxy S20+ 4G)
@@ -28,16 +31,19 @@ body:
       - SM-G991B (Galaxy S21 5G)
       - SM-G996B (Galaxy S21+ 5G)
       - SM-G998B (Galaxy S21 Ultra 5G)
+      - SM-S901B (Galaxy S22 5G)
+      - SM-S906B (Galaxy S22+ 5G)
+      - SM-S908B (Galaxy S22 Ultra 5G)
     validations:
       required: true
   - type: dropdown
     id: rom-version
     attributes:
-      label: Unbound Version
-      description: Which major version of Unbound are you running?
+      label: ROM Variant
+      description: Which ROM are you experiencing an issue on?
       options:
-      - V1.0x
-      - V2.0x
+      - BeyondROM
+      - UnboundROM
     validations:
       required: true
   - type: textarea
@@ -68,7 +74,7 @@ body:
       options:
       - label: I have checked other bug reports and this is not a duplicate.
         required: true
-      - label: This is a bug in Project Unbound and NOT any other ROM.
+      - label: This is a bug in a rom maintained by The Unbeyond Team and NOT present in any other ROM.
         required: true
-      - label: You understand and declare that if any information provided here is incorrect or instructions have not been followed correctly that it can lead to you being permanently banned from all Unbound owned servers.
+      - label: You understand and declare that if any information provided here is incorrect or instructions have not been followed correctly that it can lead to you being permanently banned from all Unbeyond owned servers.
         required: true
