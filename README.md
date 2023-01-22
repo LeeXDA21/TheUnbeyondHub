@@ -4,9 +4,8 @@
 ![Closed Issues](https://img.shields.io/github/issues-closed-raw/LeeXDA21/TheUnbeyondHub?color=green&label=Closed%20Issues%3A)
 ![](https://img.shields.io/github/downloads/LeeXDA21/TheUnbeyondHub/total?color=Green&label=Kit%20Downloads)
 ![](https://img.shields.io/github/v/release/LeeXDA21/TheUnbeyondHub?color=greeen&include_prereleases&label=Current%20Kit%20Version%3A)
-[![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram&label=Main%20Chat)](https://t.me/UnboundROM)
+[![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram&label=Beyond%20News)](https://t.me/+P7IDXNOdDHNmNGZk)
 [![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram&label=Unbound%20News)](https://t.me/+KyU1HBv6Q2RjMzY0)
-[![](https://img.shields.io/discord/934481748241313863?label=Join%20Our%20Discord)](https://discord.gg/3fhasfWJzb)
 [![Download](https://img.shields.io/github/v/release/LeeXDA21/TheUnbeyondHub?color=green&logoColor=orange&label=Download%20Latest%20Kit&logo=DocuSign)](https://github.com/LeeXDA21/TheUnbeyondHub/releases/latest)
 
 ![alt text](https://i.imgur.com/OWw45sg.png)
